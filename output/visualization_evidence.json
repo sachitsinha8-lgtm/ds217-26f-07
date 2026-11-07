@@ -1,0 +1,40 @@
+{
+  "critique": [
+    {
+      "category": "unsupported claim",
+      "problem": "The chart makes a claim the data cannot prove.",
+      "repair": "Only describe what the data shows."
+    },
+    {
+      "category": "truncated baseline",
+      "problem": "The y-axis does not start at zero.",
+      "repair": "Start the y-axis at zero."
+    },
+    {
+      "category": "missing unit",
+      "problem": "The y-axis does not show the percent unit.",
+      "repair": "Add percent (%) to the y-axis label."
+    },
+    {
+      "category": "color-only encoding",
+      "problem": "The programs are only separated by color.",
+      "repair": "Use color and another visual difference."
+    },
+    {
+      "category": "distracting decoration",
+      "problem": "Extra decoration distracts from the data.",
+      "repair": "Remove unnecessary decoration."
+    }
+  ],
+  "question": "How does our goal success change across follow-up visits for each program?",
+  "audience": "The program coordinator, who will use the chart to compare the two programs at hand",
+  "intended_claim": "Goal achievement increased across follow-up visits in both programs.",
+  "y_measure": "Percent of patients who met the 150-minute weekly exercise goal.",
+  "grain": "One row represents one program at one follow-up visit.",
+  "data_types": {
+    "program": "categorical",
+    "visit_number": "ordinal",
+    "goal_met_pct": "quantitative"
+  },
+  "text_alternative": "Line chart showing the percent of patients meeting the exercise goal across the four follow-up visits. Goal achievement did in fact increase in both programs. At visit 4, Center-based was 79 and Home-based was 70%, a 9-point difference.These results are not conclusive of the results or show that either program caused the difference."
+}
